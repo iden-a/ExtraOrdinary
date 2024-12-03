@@ -2,6 +2,8 @@
 **ExtraOrdinary** is a frontend web application built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. This project showcases an inclusive **skincare** and **haircare** line, designed with a focus on both aesthetics and accessibility.
 
 ![Homepage Image](./homepage-image.png)
+![Project Wireframe](./wireframe.png)
+[Video Demo](https://www.loom.com/share/1526f6dc25cb4aaa963fbf02dd1febcd?sid=4df6a3f5-2e18-4afd-99aa-7160c77bc65c)
 
 ## 📱 Features
 - **Mobile Responsive**: The design adapts to various screen sizes, ensuring a seamless experience across devices (phones, tablets, desktops).
@@ -23,9 +25,5 @@ This project was developed as part of a **Web Development & Design class (CIS 36
 ## 🚀 Future Enhancements
 - Integrating a backend for product management and customer interaction.
 - Adding features like product search and filtering for a more interactive shopping experience.
-
----
-## 🔗 Links
-- [Video Demo](https://www.loom.com/share/1526f6dc25cb4aaa963fbf02dd1febcd?sid=4df6a3f5-2e18-4afd-99aa-7160c77bc65c)
 
 
