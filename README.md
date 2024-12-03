@@ -1,6 +1,8 @@
 # ExtraOrdinary
 **ExtraOrdinary** is a frontend web application built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. This project showcases an inclusive **skincare** and **haircare** line, designed with a focus on both aesthetics and accessibility.
 
+![Homepage Image](./homepage-image.png)
+
 ## 📱 Features
 - **Mobile Responsive**: The design adapts to various screen sizes, ensuring a seamless experience across devices (phones, tablets, desktops).
 - **User Accessibility**: The site is built with accessibility in mind, ensuring a user-friendly experience for people with varying needs.
