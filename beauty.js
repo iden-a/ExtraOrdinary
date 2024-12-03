@@ -1,0 +1,7 @@
+const fakeAPI = {
+
+}
+
+function generateCards() {
+
+}

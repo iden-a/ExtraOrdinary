@@ -1,0 +1,739 @@
+/* css for the home page */
+.container-fluid { background-color: #36382E;}
+
+* { font-family: 'Merriweather', serif;}
+
+.container-fluid a {
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5%;
+}
+
+.extraOrdinary-header {
+    text-align: center;
+    background-color: #36382E;
+    font-size: 1.8em;
+    padding-top: 1.5%;
+    margin-bottom: -1%;
+    font-family: 'Merriweather', serif;
+}
+
+.extraOrdinary-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.extraOrdinary-header a:hover {
+  color:black;
+}
+
+.beauty {
+  min-height: 100vh;
+  margin-top: -2%;
+  float: right;  
+}
+
+.beauty2 {
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+  background-image: url(homeImages/_.jpeg);
+}
+
+#homeTextBg2{
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+  background-image: url(homeImages/beige.jpeg);
+}
+
+#homeTextInfo2{
+  position: absolute;
+  left: 0;
+  margin-left: 4%;
+  top: 50%;
+  width: 40%;
+  text-align: center;
+  padding-top: 4%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 4%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background: linear-gradient(105.23deg,#fff6 3.73%,#ffffff1a 94.76%);
+}
+
+.bannerContainer{
+  margin-top: -3%;
+}
+
+#newsImg {
+  width: 40%;
+  height: 40%;
+}
+
+#homeTextInfo2 button, .collections button, .bestSellers button, #contactForm button, .skinInfo button, .hairInfo button {
+  height: 37px;
+  text-align: center;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: top;
+  white-space: nowrap;
+  border-radius: 0;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1em;
+  line-height: 37px;
+  text-decoration: none;
+  display: inline-block;
+  background: #36382E;
+  border: 1px solid #333;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+
+.bestSellers button:hover, .collections button:hover, .hairInfo button:hover, #contactForm button:hover, #homeTextInfo2 button:hover{
+  background-color: #f5f3e6;
+  border: none;
+  color: #36382E;
+}
+
+.skinInfo button:hover{
+  text-decoration: underline;
+  background-color: #f5f3e6;
+  border: none; 
+  color: #36382E;
+}
+
+
+h1 span {
+    padding: 20px;
+    font-size: 0.8em;
+    font-family: 'Merriweather', serif;
+}
+
+.row { padding-top: 10%;}
+
+.spotlightContainer h1 {
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.spotlight a:hover {
+  text-decoration: underline;
+
+}
+
+/* add some margins to the left and the right */
+.spotlightContainer p { font-size: 1em; font-family: 'Merriweather', serif; margin-right: 5%;}
+
+
+/* contains both the product information and the video */
+.spotlight {
+  padding-top: 10%;
+  display: flex;
+  background-color: white;
+}
+
+/* changing the height and the width of the video, might want to change from px */
+.productSpotlight { width: 700px; height: 700px;}
+
+.bestSellers span, .bestSellers p {font-size: 1em; font-family: 'Merriweather', serif;}
+
+.bestSellers {
+  background-color: white;
+  padding-top: 5%;
+  margin-bottom: 10%;
+}
+
+
+.card-header h2, .card-header span, .card-header p, .card-body table {
+  font-family: 'Merriweather', serif;
+}
+
+
+.collections {
+    background-color: white;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    padding-top: 5%;    
+    margin-bottom: 5%;
+}
+
+.collections h1, .bestSellers h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Merriweather', serif;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.collections img {
+  border-radius: 10px;
+}
+
+.collectionsDetails {
+  padding-top: 5%;
+}
+
+.collections p, .blog p {font-family: 'Merriweather', serif;}
+
+.collectionProducts, .bestProducts {margin-top: -7%;}
+
+.orrisContainer {margin-top: -5.5%;}
+
+.orrisContainer a {
+  text-decoration: #36382E;
+  font-family: 'Merriweather', serif;
+  color: #36382E;
+}
+
+.blog h1  {font-size: 2.3em; font-family: 'Merriweather', serif;}
+
+.blog input[type=email]{
+  background: transparent;
+  border: none;
+  width: 50%;
+  border-bottom: 1px solid black;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog {display: flex; justify-content: space-around; text-align: center;}
+
+.blogInfo { padding-top: 12%; padding-bottom: 5%; padding-right: 2%;}
+
+.blog button {
+  margin-top: 2%;
+  height: 37px;
+  text-align: center;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: top;
+  white-space: nowrap;
+  border-radius: 0;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1em;
+  line-height: 37px;
+  text-decoration: none;
+  display: inline-block;
+  background: #36382E;
+  border: 1px solid #333;
+  font-family: 'Merriweather', serif;
+  color: white;
+  width: 30%;
+}
+
+.blog button:hover {
+  background-color: #f5f3e6;
+  border: none;
+  /* border-color:; */
+  color: #36382E;
+}
+
+/* css for the about page   ************************************************************************************** */
+.aboutContainer {
+  margin-top: -2%;
+  margin-bottom: -5%;
+}
+
+/* container */
+.responsive-two-column-grid {
+  display:block;
+}
+
+/* columns */
+.responsive-two-column-grid > * {
+  padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-two-column-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+ #about1{
+  min-height: 85vh;
+  background-color: #4E2C2C;
+}
+
+.aboutInfo h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.aboutInfo p {
+  color: white;
+  font-size: 1em;
+  padding-top: 2%;
+
+}
+
+.aboutInfo {
+  padding-top: 20%;
+  text-align: center;
+}
+
+#about2{
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%; 
+  background-image: url(aboutImages/two.jpeg);
+}
+
+#about3{
+  min-height: 85vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+  background-image: url(aboutImages/jojoba.jpeg);
+
+}
+
+#about4 {
+  background-color: #d8962a;
+  min-height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about5{
+  background-color: #A8763E;
+  min-height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about6{
+  min-height: 85vh;
+  background-size: 100% 100%;
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat;
+  background-image: url(aboutImages/shades.jpeg);
+
+}
+
+
+/* media queries for the contact page   ************************************************************************************************ */
+
+ @media (max-width:588px) {
+  #map {
+    max-width: 400px;
+    max-height: 350px;
+  }
+ }
+
+ @media (max-width: 423px) {
+  #map {
+    max-width: 300px;
+    max-height: 250px;
+  }
+ }
+
+ @media (max-width: 280px) {
+  #map {
+    display: none;
+  }
+ }
+
+ @media (max-width: 1024px) {
+  #map{
+    max-width: 450px;
+    max-height: 450px;
+  }
+ }
+
+@media (max-width: 470px) {
+  #map {
+    max-width: 300px;
+    max-height: 250px;
+  }
+}
+
+/* css for the skin/beauty page   **************************************************************************************** */
+.skinBanner {
+  margin-top: -2%;
+}
+#skin1 {
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(skinImages/four.jpeg);
+}
+
+#skin2 {
+  min-height: 85vh;
+  background-color: #f5f3e6;
+  
+}
+
+.skinInfo {
+  position: absolute;
+  left: 0;
+  margin-left: 55%;
+  top: 50%;
+  width: 40%;
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 2%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+
+/* css for the hair/body page   ***************************************************************************************** */
+.hairBanner {
+  margin-top: -2%;
+}
+#hair1 {
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-image: url(hairImages/woman2.jpeg);
+}
+
+@media (max-width:1094px ) {
+  #hair1 {
+    min-height: 85vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover; 
+  }
+
+  #hair2 {
+    min-height: 85vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-image: url(hairImages/woman3.jpeg);
+  }
+}
+
+
+
+/* media queries for skin and hair top banner images */
+@media (max-width:751px) {
+  #hair2, #skin2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 944){
+  #hair1{
+      margin-top: -20%;
+  }
+}
+
+
+#hair2 {
+  min-height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-image: url(hairImages/woman3.jpeg);
+}
+
+.hairInfo {
+  position: absolute;
+  left: 0;
+  margin-left: 30%;
+  top: 70%;
+  width: 40%;
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 2%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background: linear-gradient(105.23deg,#fff6 3.73%,#ffffff1a 94.76%);
+}
+
+/* css for the error page   ***************************************************************************************** */
+#errorBg {
+  padding-top: 13%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 4%;
+  min-height: 70vh;
+  border-radius: 10px;
+  margin-top: 5%;
+  text-align: center;
+  background-color:#36382E;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#errorBg h1 {font-size: 3em; font-weight: bold; color: white;}
+
+#errorBg p {font-size: 1.5em; color: white;}
+
+
+/* css for the error page   ***************************************************************************************** */
+#confirmationBg {
+  padding-top: 15%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 4%;
+  min-height: 70vh;
+  border-radius: 10px;
+  margin-top: 5%;
+  text-align: center;
+  /* change the background color */
+  background-color:#36382E;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+#confirmationBg h1 {font-size: 2.5em;}
+
+#confirmationBg p {font-size: 1.2em ;}
+
+#confirmationBg a {font-size: 1.2em; color: white;}
+
+
+/* css for the menuNav    ***************************************************************************************** */
+.filterContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filterContainer li {
+  display: inline-block; 
+  margin-right: 3.5%; 
+  font-size: 1.2em;
+  
+}
+
+.filterContainer li:hover {
+  /* text-decoration: underline; */
+  background-color: #f5f3e6;
+  cursor: pointer;
+}
+
+.filterContainer{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+.filterContainer hr {
+  width: 70%; 
+  /* margin-right: 59%; */
+  margin-left: 13%;
+}
+
+/* my footer css ****************************************************************************************************/
+.footerContainer {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.footerContainer a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+}
+
+.footerContainer span:not(:last-child) {
+  padding-right: 2%;
+}
+
+.footerNav, .copyrightInfo {
+  padding-top: 2%;
+}
+
+.footerContainer button {
+  margin-top: 2%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#footerHead {
+  font-size: 1.8em;
+}
+
+/* footer css */
+.footer-clean {
+    padding:50px 0;
+    background-color: #36382E;
+    color:white;
+    margin-top: 5%;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean a:hover {
+    opacity:1;
+  }
+  
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+
+  /* media queries *******************************************************************************/
+  @media (max-width: 1200px){
+    .productSpotlight {
+      display: none;
+    }
+
+    .spotlight h1, .spotlight p {
+      text-align: center;
+    }   
+  } 
+
+  @media (max-width: 768px) {
+    .productSpotlight{
+      display: none;
+    }
+
+    .spotlight{
+      margin: 0 auto;
+    }
+
+    #orrisP{
+      text-align: center;
+    }
+
+    #newsImg{
+      margin-left: 8%;
+      margin-right: 5%;
+      width: 20%;
+      height: 20%;
+    }
+    .blog{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 690px) {
+    .productSpotlight{
+      display: none;
+    }
+
+    .spotlight{
+      margin: 0 auto;
+    }
+
+    #orrisP{
+      text-align: center;
+    }
+
+    #newsImg{
+      display: none;
+    }
+    .blog{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 821px) {
+    .productSpotlight{
+      display: none;
+    }
+
+    .blog{
+      display: flex;
+      flex-direction: column;
+    } 
+
+
+    #homeTextInfo2 {
+      margin-left: 55%;
+    }
+    #beauty2 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .orrisContainer .col {
+      padding-top: 5%;
+      margin-left: 18%;
+    }
+
+    .spotlightContainer p, .spotlightContainer h1 {
+      text-align: center;
+    }
+
+    .spotlightContainer p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .collections .col {
+      padding-top: 5%;
+    }
+
+  }
+
+ @media (max-width: 1000px) {
+  #newsImg {
+    display:none;
+  }
+
+ }
+
+
+
+  
